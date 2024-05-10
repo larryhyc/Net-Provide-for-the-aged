@@ -1,0 +1,74 @@
+/* 头部导航栏 */
+.head {
+    height: 66px;
+    display: flex;
+    background-color: #01847f;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.head img {
+    height: 66px;
+    width: 80px;
+}
+
+.head a {
+    text-decoration: none;
+    padding: 0 auto;
+    font-size: 17px;
+    line-height: 66px;
+    margin: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.head .home {
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 10px #69e0ff, 0 0 20px #69e0ff, 0 0 40px #69e0ff;
+}
+
+.head a:hover {
+    text-shadow: 0 0 10px #69e0ff, 0 0 20px #69e0ff, 0 0 40px #69e0ff;
+    color: rgb(255, 255, 255);
+    transition: all 0.4s;
+}
+
+/* 政策板块 */
+.news {
+    width: 1141px;
+    margin: 20px auto;
+    background-color: #01848077;
+    backdrop-filter: blur(100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.news-head h3 {
+    font-size: 50px;
+    text-align: center;
+    font-weight: 400;
+    color: #01847f;
+    margin-top: 50px;
+}
+
+.news .news-link {
+    width: 1141px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: block;
+    text-align: center;
+    line-height: 56px;
+    font-size: 25px;
+    color: #01847f;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    margin: 0 auto;
+}
+
+.news .news-link:hover {
+    background-color: #01847f;
+    color: #fff;
+    transition: all 0.5s;
+}

@@ -1,0 +1,140 @@
+/* 头部导航栏 */
+.head {
+    height: 66px;
+    display: flex;
+    background-color: #01847f;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.head img {
+    height: 66px;
+    width: 80px;
+}
+
+.head a {
+    text-decoration: none;
+    padding: 0 auto;
+    font-size: 17px;
+    line-height: 66px;
+    margin: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.head .home {
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 10px #69e0ff, 0 0 20px #69e0ff, 0 0 40px #69e0ff;
+}
+
+.head a:hover {
+    text-shadow: 0 0 10px #69e0ff, 0 0 20px #69e0ff, 0 0 40px #69e0ff;
+    color: rgb(255, 255, 255);
+    transition: all 0.4s;
+}
+
+/* tab栏切换 */
+.text h3{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 400;
+    color: #01847f;
+    margin-top: 50px;
+}
+
+.tab{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.tab ul{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.tab ul li{
+    width: 90px;
+    height: 40px;
+    list-style: none;
+    font-size: 20px;
+    color: white;
+    background-color: #01848061;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.tab ul li:hover{
+    background-color: #01847f;
+    transition: all 0.5s;
+    transform: scale(1.03, 1.03);
+}
+
+.tab .tab-content .item{
+    width: 1140px;
+    display: none;
+    /* background-color: #01847f; */
+}
+
+.tab ul .active{
+    background-color: #01847f;
+}
+
+.tab .tab-content .active2{
+    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.tav .tab-content a{
+    width: 1140px;
+}
+
+/* 养老院信息 */
+
+.item a img{
+    width: 250px;
+    height: 150px;
+    /* margin: 0 0px; */
+}
+
+.item a{
+    width: 1140px;
+    display: flex;
+    background-color: #01848085;
+    /* line-height: 150px; */
+
+    text-align: center;
+    flex-grow: 1;
+    margin: 5px 3px;
+    border: 2px solid #018480;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.item a:hover{
+    background-color: #01847f;
+    color: white;
+    transition: all 0.5s;
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    transform: scale(1.03, 1.03);
+}
+
+.item .data{
+    width: 880px;
+    height: 150px;
+    display: flex;
+    /* background-color: red; */
+    flex-direction: column;
+    justify-content: center;
+}
+.item .data p{
+    /* display: block; */
+    width: auto;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+}

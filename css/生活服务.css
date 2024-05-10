@@ -1,0 +1,65 @@
+/* 头部导航栏 */
+.head {
+    height: 66px;
+    display: flex;
+    background-color: #01847f;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.head img {
+    height: 66px;
+    width: 80px;
+}
+
+.head a {
+    text-decoration: none;
+    padding: 0 auto;
+    font-size: 17px;
+    line-height: 66px;
+    margin: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.head .home {
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 10px #69e0ff, 0 0 20px #69e0ff, 0 0 40px #69e0ff;
+}
+
+.head a:hover {
+    text-shadow: 0 0 10px #69e0ff, 0 0 20px #69e0ff, 0 0 40px #69e0ff;
+    color: rgb(255, 255, 255);
+    transition: all 0.4s;
+}
+
+/* 总体6个板块的背景 */
+.warper{
+    width: 1140px;
+    margin: 10px auto 0px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.warper .item{
+    width: 1140px;
+    height: 200px;
+    background-color: #01848085;
+    background-image: url(../res/move1.jpg);
+    line-height: 200px;
+    text-align: center;
+    flex-grow: 1;
+    margin: 5px 3px;
+    border: 2px solid #018480;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    font-size: 45px;
+    color: #018480;
+}
+
+.warper .item:hover{
+    /* background-color: #018480; */
+    transform: scale(1.01);
+    transition: all 0.4s;
+}

@@ -1,0 +1,102 @@
+/* 头部导航栏 */
+.head {
+    height: 66px;
+    display: flex;
+    background-color: #01847f;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.text h3 {
+    font-size: 50px;
+    text-align: center;
+    font-weight: 400;
+    color: #01847f;
+    margin-top: 50px;
+}
+
+.head img {
+    height: 66px;
+    width: 80px;
+}
+
+.head a {
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 66px;
+    margin: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.head .home {
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 10px #69e0ff, 0 0 20px #69e0ff, 0 0 40px #69e0ff;
+}
+
+.head a:hover {
+    text-shadow: 0 0 10px #69e0ff, 0 0 20px #69e0ff, 0 0 40px #69e0ff;
+    color: rgb(255, 255, 255);
+    transition: all 0.4s;
+}
+
+/* 老年课堂 */
+.lesson-head{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 400;
+    color: #01847f;
+    margin: 40px auto 20px auto;
+}
+
+.warpper{
+    height: 600px;
+    margin:70px auto;
+}
+
+.lesson-body{
+    margin: 0 auto;
+    height: 430px;
+    width: 1130px;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:30px;
+    overflow: hidden;
+}
+
+.lesson-body .item{
+    height: 208px;
+    width: 240px;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+.lesson-body .item img{
+    width: 240px;
+    height: 135px;
+}
+
+.lesson-body .item p{
+    height: 73px;
+    display: block;
+    line-height: 30px;
+    /* 设置溢出隐藏 */
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    font-size: 100%;
+    max-height: 4em;
+    text-align: justify;
+}
+
+.lesson-body .item:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    transform: scale(1.05, 1.05);
+    transition: all 0.5s;
+}
